@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="initial-scale=1, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0, shrink-to-fit=no, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>双十一聚惠</title>
+    <script src="js/jquery.js"></script>
+    <style type="text/css">
+    .fuchen {
+        position: relative;
+        margin-top: 165px;
+        text-align: center;
+    }
+
+    .fuchen2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .fuchenicon {
+        position: absolute;
+        top: 2%;
+        right: 7%;
+        width: 10%;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="fuchen">
+        <a href="detials.html"><img src="images/双十一浮层2.png" class="fuchen2"></a>
+        <img src="images/双十一浮层icon.png" class="fuchenicon">
+    </div>
+</body>
+<script type="text/javascript">
+	$(".fuchenicon").click(function(){
+		$(".fuchen").css("display","none");
+	})
+</script>
+
+</html>

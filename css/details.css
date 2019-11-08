@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.details {
+    position: relative;
+
+}
+
+.details img {
+    width: 100%;
+    height: auto;
+}
+
+.item a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.top .item {
+    position: absolute;
+    z-index: 999;
+    /*background-color: pink;*/
+    width: 60%;
+    height: 6%;
+}
+
+.top .chayou {
+    top: 30%;
+    left: 20%;
+}
+
+.top .shiliu {
+    top: 39%;
+    left: 20%;
+}
+
+.top .yagao {
+    top: 49%;
+    left: 20%;
+}
+
+.top .mayou {
+    top: 60%;
+    left: 20%;
+}
+
+
+.bottom .item {
+    position: absolute;
+    z-index: 999;
+    /*background-color: pink;*/
+    width: 23%;
+    height: 7%;
+}
+
+.bottom .baique {
+    bottom: 22%;
+    left: 24%
+}
+
+.bottom .meitou {
+    bottom: 22%;
+    left: 53%
+}
+
+.bottom .yashua {
+    bottom: 12.5%;
+    left: 24%
+}
+
+.bottom .chuangdian {
+    bottom: 12.5%;
+    left: 53%
+}
+
+.bottom .maojin {
+    bottom: 3.5%;
+    left: 24%
+}
+
+.bottom .shengtishu {
+    bottom: 3.5%;
+    left: 53%
+}
+
+#toTop  {
+	display: inline-block;
+	width: 15%;
+	height: 1%;
+	z-index: 999;
+	position: absolute;
+	bottom: 0.5%;
+	left: 42%;
+}
